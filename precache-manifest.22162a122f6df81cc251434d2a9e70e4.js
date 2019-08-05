@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c6e7cda283bf63fb1b42e5eb65b7628",
+    "revision": "4885f4c8c8899462fecf5b8d4c69e873",
     "url": "/Zerhar/todo-app/index.html"
   },
   {
-    "revision": "2acfdf62d7b6a1723c36",
+    "revision": "d7c4c93f14a0e5c9d5fd",
     "url": "/Zerhar/todo-app/static/css/main.2ca24355.chunk.css"
   },
   {
-    "revision": "616d0d115431acfda845",
-    "url": "/Zerhar/todo-app/static/js/2.836f42b8.chunk.js"
+    "revision": "7cd9e47e665a400b09d4",
+    "url": "/Zerhar/todo-app/static/js/2.15fea075.chunk.js"
   },
   {
-    "revision": "2acfdf62d7b6a1723c36",
-    "url": "/Zerhar/todo-app/static/js/main.2529168c.chunk.js"
+    "revision": "d7c4c93f14a0e5c9d5fd",
+    "url": "/Zerhar/todo-app/static/js/main.517b97c6.chunk.js"
   },
   {
     "revision": "e3dd8c0e3dd15e46b70b",
