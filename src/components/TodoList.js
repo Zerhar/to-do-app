@@ -10,7 +10,7 @@ export default class TodoList extends Component {
         };
     }
 
-    addItem = (e) => {
+    addList = (e) => {
         let listArray = this.state.list;
         if (this._inputElement.value !== '') {
             listArray.unshift({
@@ -26,7 +26,7 @@ export default class TodoList extends Component {
 
     }
 
-    deleteItem = (key) => {
+    deleteList = (key) => {
         let filteredItems = this.state.list.filter((item) => item.key !== key);
         this.setState({
             list: filteredItems
@@ -37,7 +37,7 @@ export default class TodoList extends Component {
         return (
             <div className={classes.todoListMain}>
                 <div className={classes.header}>
-                    <form onSubmit={this.addItem}>
+                    <form onSubmit={this.addList}>
                         <input
                             ref={(a) => this._inputElement = a}
                             placeholder="enter task" />
@@ -47,7 +47,7 @@ export default class TodoList extends Component {
                 <div>
                     <TodoItem
                         entries={this.state.list}
-                        delete={this.deleteItem} />
+                        delete={this.deleteList} />
                 </div>
             </div>
         )

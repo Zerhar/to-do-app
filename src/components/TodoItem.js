@@ -4,17 +4,17 @@ import classes from './TodoList.module.css';
 
 export default class TodoItems extends Component {
 
-    delete = (key) => {
+    deleteKey = (key) => {
         this.props.delete(key);
     }
 
-    createTasks = (item) => {
-        return <li onClick={() => this.delete(item.key)} key={item.key}>{item.text}</li>
+    addTask = (item) => {
+        return <li onClick={() => this.deleteKey(item.key)} key={item.key}>{item.text}</li>
     }
 
     render() {
         let todoEntries = this.props.entries;
-        let listItems = todoEntries.map(this.createTasks);
+        let listItems = todoEntries.map(this.addTask);
         return (
             <ul className={classes.theList}>
                 <FlipMove enterAnimation="fade" leaveAnimation="fade">
