@@ -3,9 +3,6 @@ import FlipMove from 'react-flip-move';
 import classes from './TodoList.module.scss';
 
 export default class TodoItems extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     delete = (key) => {
         this.props.delete(key);
