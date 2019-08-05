@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Zerhar/todo-app/precache-manifest.7b9c6f5fd1e3c6fab79b016bd795660d.js"
+  "/Zerhar/todo-app/precache-manifest.d33ae27e5947f2398c9422895b1124d8.js"
 );
 
 self.addEventListener('message', (event) => {
