@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import FlipMove from 'react-flip-move';
 import classes from './TodoList.module.scss';
 
-class TodoItems extends Component {
+export default class TodoItems extends Component {
     constructor(props) {
         super(props);
-        this.createTasks = this.createTasks.bind(this);
-
     }
 
     delete = (key) => {
@@ -20,7 +18,6 @@ class TodoItems extends Component {
     render() {
         let todoEntries = this.props.entries;
         let listItems = todoEntries.map(this.createTasks);
-
         return (
             <ul className={classes.theList}>
                 <FlipMove enterAnimation="fade" leaveAnimation="fade">
@@ -30,5 +27,3 @@ class TodoItems extends Component {
         )
     }
 }
-
-export default TodoItems;

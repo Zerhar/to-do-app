@@ -8,7 +8,6 @@ export default class TodoList extends Component {
         this.state = {
             list: []
         };
-        this.addItem = this.addItem.bind(this);
     }
 
     addItem = (e) => {
