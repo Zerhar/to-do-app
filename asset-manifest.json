@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Zerhar/todo-app/static/css/main.fd9558c6.chunk.css",
-    "main.js": "/Zerhar/todo-app/static/js/main.b84ab26f.chunk.js",
-    "main.js.map": "/Zerhar/todo-app/static/js/main.b84ab26f.chunk.js.map",
+    "main.css": "/Zerhar/todo-app/static/css/main.c2184a0f.chunk.css",
+    "main.js": "/Zerhar/todo-app/static/js/main.cbd8c380.chunk.js",
+    "main.js.map": "/Zerhar/todo-app/static/js/main.cbd8c380.chunk.js.map",
     "runtime~main.js": "/Zerhar/todo-app/static/js/runtime~main.8863042b.js",
     "runtime~main.js.map": "/Zerhar/todo-app/static/js/runtime~main.8863042b.js.map",
     "static/js/2.15fea075.chunk.js": "/Zerhar/todo-app/static/js/2.15fea075.chunk.js",
     "static/js/2.15fea075.chunk.js.map": "/Zerhar/todo-app/static/js/2.15fea075.chunk.js.map",
     "index.html": "/Zerhar/todo-app/index.html",
-    "precache-manifest.603f6130e76e5c5b4b35c456a9a85a33.js": "/Zerhar/todo-app/precache-manifest.603f6130e76e5c5b4b35c456a9a85a33.js",
+    "precache-manifest.632d009b2d5113a5f86dfb4790c5253e.js": "/Zerhar/todo-app/precache-manifest.632d009b2d5113a5f86dfb4790c5253e.js",
     "service-worker.js": "/Zerhar/todo-app/service-worker.js",
-    "static/css/main.fd9558c6.chunk.css.map": "/Zerhar/todo-app/static/css/main.fd9558c6.chunk.css.map"
+    "static/css/main.c2184a0f.chunk.css.map": "/Zerhar/todo-app/static/css/main.c2184a0f.chunk.css.map"
   }
 }
