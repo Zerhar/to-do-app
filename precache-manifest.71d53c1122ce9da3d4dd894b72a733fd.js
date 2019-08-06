@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d68e04d8cbf8d68e6934972c186cd146",
+    "revision": "634cc04eee739fddd151e0efffb9f09f",
     "url": "/Zerhar/todo-app/index.html"
   },
   {
