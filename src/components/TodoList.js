@@ -22,6 +22,12 @@ export default class TodoList extends Component {
             });
             this._inputElement.value = '';
             e.preventDefault()
+        } else {
+            this.setState({
+                list: listArray
+            });
+            this._inputElement.value = '';
+            e.preventDefault()
         }
 
     }
