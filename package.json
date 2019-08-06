@@ -1,8 +1,8 @@
 {
   "name": "att-gora-lista",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
-  "homepage": "https://github.com/Zerhar/todo-app",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
