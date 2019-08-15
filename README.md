@@ -1,1 +1,1 @@
-Link to demo: https://zerhar.github.io/todo-app/
+Link to demo: https://zerhar.github.io/to-do-app/
